@@ -957,6 +957,34 @@ span[class*="border-"] {
     background: url("../img/shape-2.png") no-repeat;
 }
 
+/*our footer starts*/
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.footer_section {
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .footer_section p {
+    color: #f9fcfb;
+    margin: 0;
+    text-align: center;
+    padding: 10px 5%;
+    border-top: 1px solid #f9fcfb;
+  }
+  
+  .footer_section a {
+    color: #f9fcfb;
+  }
+
+  /*our footer ends*/
 .main-button,.main-footer .social li a {
     color: #B9F3FC;
     text-transform: uppercase;
