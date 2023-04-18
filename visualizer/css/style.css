@@ -1,14 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Montserrat';
     font-size: large;
     font-weight: bold;
     text-transform: uppercase;
   }
   
-  nav {
-    background-color: #3b3a3a;
+  nav { 
+    background-color: #071108;
     color: white;
     display: -ms-grid;
     display: grid;
@@ -38,7 +38,7 @@
   
   nav .array-inputs #a_generate {
     background-color: transparent;
-    border: none;
+    border: none; 
     outline: none;
     color: white;
     padding: 4% 0% 0% 0%;
@@ -73,6 +73,11 @@
     place-content: center;
     padding: 2% 0%;
   }
+
+  #a_generate :hover{
+    background:#0ccfa5;
+  }
+
   
   nav .header_right .algos button {
     background-color: transparent;
@@ -80,11 +85,11 @@
     color: white;
     outline: none;
     padding: 5% 0%;
-    font-size: x-large;
+    font-size: medium;
   }
   
   nav .header_right .algos button:hover {
-    background-color: blue;
+    background-color: rgb(41, 181, 206);
     cursor: pointer;
   }
   
@@ -148,11 +153,15 @@
   section #array_container {
     display: -webkit-box;
     display: -ms-flexbox;
+    background-color: #ffffff;
     display: flex;
     width: 100%;
     height: 70vh;
   }
   
+  section #array_container div{
+    height:180px;
+  }
   section #Info_Cont2 {
     padding: 20% 10%;
   }
