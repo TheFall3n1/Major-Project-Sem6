@@ -959,7 +959,7 @@ span[class*="border-"] {
     padding-left: 25px;
 }
 .footer_section {
-    font-weight: 500;
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -969,11 +969,11 @@ span[class*="border-"] {
   }
   
   .footer_section p {
-    color: #f9fcfb;
+    color: #B9F3FC;
     margin: 0;
     text-align: center;
     padding: 10px 5%;
-    border-top: 1px solid #f9fcfb;
+    
   }
   
   .footer_section a {
